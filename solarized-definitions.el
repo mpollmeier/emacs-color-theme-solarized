@@ -228,7 +228,7 @@ the \"Gen RGB\" column in solarized-definitions.el to improve them further."
         '(setf ansi-color-names-vector [,base02 ,red ,green ,yellow ,blue ,magenta ,cyan ,base00]))
       (mapcar (lambda (face) (apply 'create-face-spec face))
               `(;; basic
-                (default (,@fg-base0 ,@bg-back))   ; Normal
+                (default (,@fg-base2 ,@bg-back))   ; Normal
                 (cursor (,@fg-base03 ,@bg-base0))  ; Cursor
                 (shadow (,@fg-base01))
                 (link (,@fmt-undr ,@fg-violet))    ; Underlined
