@@ -642,6 +642,7 @@ the \"Gen RGB\" column in solarized-definitions.el to improve them further."
                 (markdown-link-face (:inherit shadow))
                 (markdown-link-title-face (:inherit link))
                 (markdown-url-face (:inherit link))
+                (markdown-code-face (,@bg-base02))
                 ;; Message
                 (message-mml (,@fg-blue))
                 (message-cited-text (,@fg-base2))
